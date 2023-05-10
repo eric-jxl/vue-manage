@@ -5,7 +5,7 @@
   </a>
   <a href="https://github.com/vuejs/pinia">
     <img src="https://img.shields.io/badge/pinia-2.0.14-brightgreen.svg" alt="pinia">
-  </a>
+  </a>[package.json](package.json)
   <a href="https://github.com/lin-xin/vue-manage-system/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license">
   </a>
@@ -49,8 +49,8 @@
 > 因为使用vite3，node版本需要 14.18+
 
 ```
-git clone https://github.com/lin-xin/vue-manage-system.git      // 把模板下载到本地
-cd vue-manage-system    // 进入模板目录
+git clone https://github.com/eric-jxl/vue-manage.git      // 把模板下载到本地
+cd vue-manage   // 进入模板目录
 npm install         // 安装项目依赖，等待安装完成之后，安装失败可用 cnpm 或 yarn
 
 // 运行
