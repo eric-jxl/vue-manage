@@ -18,6 +18,7 @@
 						<div class="info-name">{{ name }}</div>
 						<div class="info-desc">不可能！我的代码怎么可能会有bug！</div>
 					</div>
+
 				</el-card>
 			</el-col>
 			<el-col :span="12">
@@ -73,6 +74,7 @@ import { reactive, ref } from 'vue';
 import VueCropper from 'vue-cropperjs';
 import 'cropperjs/dist/cropper.css';
 import avatar from '../assets/img/img.jpg';
+import Flow from "../components/flow.vue";
 
 const name = localStorage.getItem('ms_username');
 const form = reactive({

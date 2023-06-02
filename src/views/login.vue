@@ -11,12 +11,8 @@
                     </el-input>
                 </el-form-item>
                 <el-form-item prop="password">
-                    <el-input
-                            type="password"
-                            placeholder="password"
-                            v-model="param.password"
-                            @keyup.enter="submitForm(login)"
-                    >
+                    <el-input type="password" placeholder="password"
+                            v-model="param.password" @keyup.enter="submitForm(login)">
                         <template #prepend>
                             <el-button :icon="Lock"></el-button>
                         </template>
