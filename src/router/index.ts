@@ -1,7 +1,7 @@
 import {createRouter, createWebHashHistory, RouteRecordRaw} from 'vue-router';
 import {usePermissStore} from '../store/permiss';
 import Home from '../views/home.vue';
-import vue from "@vitejs/plugin-vue";
+// import vue from "@vitejs/plugin-vue";
 
 const routes: RouteRecordRaw[] = [
     {
