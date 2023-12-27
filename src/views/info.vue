@@ -58,7 +58,7 @@
 <!--                    </tr>-->
 <!--                    </thead>-->
 <!--                    <tbody>-->
-<!--                        <tr v-for="(user) in users" :key="user.uid">-->
+<!--                        <tr v-for="(user) in data.users" :key="user.uid">-->
 <!--                            <td>{{user.uid}}</td>-->
 <!--                            <td>{{user.login}}</td>-->
 <!--                            <td>{{user.password}}</td>-->

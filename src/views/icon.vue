@@ -16,7 +16,7 @@
 			<i class="el-icon-lx-emojifill" style="font-size: 30px; color: #ffc300"></i>
 			<span>&lt;i class=&quot;el-icon-lx-emojifill&quot;&gt;&lt;/i&gt;</span>
 		</p>
-		<br />
+		<br/>
 		<h2>图标</h2>
 		<div class="search-box">
 			<el-input class="search" size="large" v-model="keyword" clearable placeholder="请输入图标名称"></el-input>
@@ -33,7 +33,7 @@
 </template>
 
 <script setup lang="ts" name="icon">
-import { computed, ref } from 'vue';
+import {computed, ref} from 'vue';
 
 const iconList: Array<string> = [
 	'attentionforbid',
@@ -176,23 +176,28 @@ const list = computed(() => {
 	display: flex;
 	align-items: center;
 }
+
 .search-box {
 	text-align: center;
 	margin-top: 10px;
 }
+
 .search {
 	width: 300px;
 }
+
 ul,
 li {
 	list-style: none;
 }
+
 .icon-li {
 	display: inline-block;
 	padding: 10px;
 	width: 120px;
 	height: 120px;
 }
+
 .icon-li-content {
 	display: flex;
 	height: 100%;
@@ -201,10 +206,12 @@ li {
 	justify-content: center;
 	cursor: pointer;
 }
+
 .icon-li-content i {
 	font-size: 36px;
 	color: #606266;
 }
+
 .icon-li-content span {
 	margin-top: 10px;
 	color: #787878;
