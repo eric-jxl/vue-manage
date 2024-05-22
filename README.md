@@ -5,7 +5,7 @@
   </a>
   <a href="https://github.com/vuejs/pinia">
     <img src="https://img.shields.io/badge/pinia-2.0.14-brightgreen.svg" alt="pinia">
-  </a>[package.json](package.json)
+  </a>
   <a href="https://github.com/lin-xin/vue-manage-system/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license">
   </a>
